@@ -24,5 +24,28 @@ else {
 }
 
 
+// let maand = 3;
+// let maandLengte = -1;
+
+// if(maand == 1) {
+//     maandLengte = 31;
+// } else if (maand == 2) {
+//     maandLengte = 28;
+// }
+//     else {
+//         if(maand == 3 ) {
+//             maandLengte = 31;
+//         }
+//         else if(maand == 4) {
+            
+//         }
+//         else {
+//             if(maand == 31) {
+
+//             }
+//         }
+//     }
+// }
+
 
 
