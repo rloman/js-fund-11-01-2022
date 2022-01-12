@@ -1,0 +1,25 @@
+
+
+f(x) = x**2;
+
+f(2) => 4
+f(4) => 16
+
+// Syntax =>
+function <name>(<parameters>) {
+
+    // eventueel
+    return 
+
+}
+
+function geefVoornaam() {
+
+    return "Aart";
+}
+
+// Voorbeeld van de kwadraat functie
+function kwadraat(x) {
+
+    return x ** 2;
+}
