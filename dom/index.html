@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="data">
+        Address: <input name="address" value="Abbey Road 42">
+        Phone: <input name="phone" type="number" id="phoneNumber" value="777888999">
+    </form>
+
+    <script>
+        window.alert(window.document.data.address.value); // DOM uitlezen
+        window.alert(document.forms[0].address.value);
+        window.alert(document.getElementById("phoneNumber").value);
+    </script>
+    
+</body>
+</html>
