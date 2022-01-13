@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for your address stuff etc.</title>
+
+    <script src="js/functions.js"></script>
+</head>
+<body onload="init();">
+
+    <form name="data">
+        Address: <input name="address" value="Abbey Road 42" onchange="showAddress(this);">
+        Phone: <input name="phone" type="number" id="phoneNumber" value="777888999" onchange="showAddress(this);">
+    </form>
+
+    
+    <div id="advertentie" onmouseover="advertentie();" onmouseout="jammerDan();">
+        Hier zou uw advertentie  kunnen staan!
+    </div>
+    
+</body>
+</html>
