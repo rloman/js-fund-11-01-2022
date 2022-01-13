@@ -27,21 +27,21 @@ try {
     console.log(delen(3,4));
 }
 catch(e) {
-    console.log(e);
+    console.error(e);
 }
 
 try {
     console.log(delen(3,0));
 }
 catch(e) {
-    console.log(e);
+    console.error(e);
 }
 
 try {
     console.log(delen(3,4));
 }
 catch(e) {
-    console.log(e);
+    console.error(e);
 }
 
 
@@ -53,7 +53,7 @@ try {
     console.log("het aantal leden is: "+aantalLeden);
 }
 catch(e) {
-    console.log("He eh ... wat is dat voor lege naam!");
+    console.error("He eh ... wat is dat voor lege naam!");
 }
 
 // gaat happy verder
