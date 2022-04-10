@@ -6,6 +6,8 @@ function validateForm() {
     let postcode = data.postcode.value;
     let messages = "";
 
+    console.error(data.password.value);
+
     let resultValidation = re.test(postcode);
     if(resultValidation == false) {
         messages += "U dient een geldige postcode (4 cijfers en dan 2 letters) in te voeren!\n";
@@ -15,6 +17,7 @@ function validateForm() {
         messages += "U dient een geldig huisadres in te voeren";
     }
 
+    alert("password is readable!!!:"+data.password.value);
 
     if(messages != "") {
         alert(messages);
